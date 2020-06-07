@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "Cumprimento",
+         "patterns": ["Oi", "Tudo bem", "Tem alguem ai?", "Ola", "Bom dia", "Eai"],
+         "responses": ["Ola!", "Bom te ver novamente!", "Ola, como posso ajudar?"],
+         "context_set": ""
+        },
+        {"tag": "despedida",
+         "patterns": ["Ate mais", "Te vejo depois", "Falou", "Estou saindo", "Tenha um otimo dia"],
+         "responses": ["Triste te ver indo embora :(", "Nos falamos depois", "Tchau!"],
+         "context_set": ""
+        },
+        {"tag": "idade",
+         "patterns": ["Quantos anos", "Qual e a sua idade", "Qual e a sua idade", "Quantos anos voce tem", "idade?"],
+         "responses": ["Eu tenho 27 anos!", "27 anos um museu!"],
+         "context_set": ""
+        },
+        {"tag": "nome",
+         "patterns": ["Qual e o seu nome", "como posso te chamar", "como voce chama?"],
+         "responses": ["Pode me chamar de Jefinho.", "Eu sou Felipe!", "Meu chamo Felipe Souza ou Jefinho."],
+         "context_set": ""
+        },
+        {"tag": "comprar",
+         "patterns": ["Eu gostaria de comprar alguma coisa", "o que tem no menu", "o que voce recomenda?", "posso pedir alguma coisa para comer"],
+         "responses": ["Nos vendemos cookies de chocolate por R$12,00!", "Temos cookies no menu!"],
+         "context_set": ""
+        },
+        {"tag": "tempo",
+         "patterns": ["Que horas voces estao aberto", "quais sao seus horarios", "horario de funcionamento"],
+         "responses": ["Estamos abertos das 7am-4pm Segunda-Sexta!"],
+         "context_set": ""
+        }
+   ]
+}
