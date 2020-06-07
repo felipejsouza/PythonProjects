@@ -10,7 +10,7 @@
          "context_set": ""
         },
         {"tag": "idade",
-         "patterns": ["Quantos anos", "Qual e a sua idade", "Qual e a sua idade", "Quantos anos voce tem", "idade?"],
+         "patterns": ["Quantos anos", "Qual e a sua idade", "Quantos anos voce tem", "idade?"],
          "responses": ["Eu tenho 27 anos!", "27 anos um museu!"],
          "context_set": ""
         },
